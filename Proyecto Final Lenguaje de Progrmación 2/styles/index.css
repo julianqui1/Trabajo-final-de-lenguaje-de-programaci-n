@@ -1,0 +1,39 @@
+* {
+  background-color: lightskyblue;
+}
+.titulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+ul li p {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.collage-img {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.collage-img ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.collage-img li {
+  width: calc(50% - 100px);
+}
+
+.collage-img img {
+  max-width: 65%;
+  height: 65%;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+.collage-img p {
+  text-align: center;
+}
