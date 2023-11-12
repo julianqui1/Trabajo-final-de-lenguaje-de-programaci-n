@@ -43,12 +43,12 @@ nav {
   width: 50px;
   height: 50px;
 }
-
+/*********************footer**************/
 footer {
   background-color: royalblue;
   color: black;
   text-align: center;
-  padding: 20px 0;
+  padding: 0;
   margin-top: auto;
 }
 
@@ -71,48 +71,7 @@ footer {
 .footer-links a:hover {
   color: white;
 }
-p {
-  margin: 0;
-}
-/************************************************/
-.collage {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 80px;
-  float: left;
-}
 
-.collage-img {
-  width: 70%;
-}
-
-.collage-img ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.collage-img li {
-  width: calc(25% - 30px);
-}
-
-.collage-img img {
-  max-width: 90%;
-  height: 85%;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-
-.collage-img p {
-  text-align: center;
-  margin: 5px 0;
-}
-.p-collage {
-  font-size: 40px;
+h3 {
   text-align: center;
 }

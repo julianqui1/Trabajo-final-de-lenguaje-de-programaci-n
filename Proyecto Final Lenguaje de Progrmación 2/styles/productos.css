@@ -12,6 +12,10 @@ nav {
   background-color: royalblue;
   color: black;
   padding: 0px 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .menu {
@@ -154,4 +158,74 @@ aside {
   height: 30px;
   cursor: pointer;
   font-size: 14px;
+}
+
+/**************footer*********/
+footer {
+  background-color: royalblue;
+  color: black;
+  text-align: center;
+  padding: 0;
+  margin-top: auto;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links p {
+  color: black;
+  margin: 0;
+  font-weight: bold;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*******************formulario eleccion de ingredientes***************/
+.section-formulario {
+  width: 350px;
+  background-color: royalblue;
+  margin: auto;
+  padding: 30px;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.boton-ingredientes {
+  width: 60%;
+  background: whitesmoke;
+  color: black;
+  border: none;
+  border: 2px solid black;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 15px;
+  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }

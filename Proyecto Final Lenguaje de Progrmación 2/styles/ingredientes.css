@@ -12,6 +12,10 @@ nav {
   background-color: royalblue;
   color: black;
   padding: 0px 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .menu {
@@ -197,4 +201,36 @@ aside {
   margin: 16px 0;
   border-radius: 5px;
   font-size: 20px;
+}
+/**************footer*********/
+footer {
+  background-color: royalblue;
+  color: black;
+  text-align: center;
+  padding: 0;
+  margin-top: auto;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links p {
+  color: black;
+  margin: 0;
+  font-weight: bold;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+h2 {
+  text-align: center;
 }

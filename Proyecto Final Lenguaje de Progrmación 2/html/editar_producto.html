@@ -8,64 +8,58 @@
     <link rel="shortcut icon" href="/img/descarga.jpg" type="image/x-icon" />
   </head>
   <body>
-      <label>Nombre</label>
-      <select >
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-      </select>
-      <label>Valor neto</label>
-      <select >
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-      </select>
-      <label> inabilitado Precio ingredientes</label>
-      <select >
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-      </select>
-      <label> inibilitado Valor por hora del trabajador</label>
-      <select >
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-      </select>
-      <label>Precio de venta</label>
-      <select >
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-      </select>
-      <label>Margen de veneficio</label>
-      <select >
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-      </select>
-      <label>Cantidad vendida</label>
-      <select >
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-      </select>
-      <a href="/html/productos.html"><button class="boton">Editar</button></a>
-      <a href="/html/productos.html"><button class="boton">Borrar</button></a>
+    <section>
+      <label>Nombre:</label>
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Ingrese su nombre"
+        required
+      />
+      <label>Valor Neto:</label>
+      <input
+        type="number"
+        name="valorNeto"
+        placeholder="Ingrese el valor neto"
+        required
+      />
+      <label>Precio Ingredientes (inhabilitado):</label>
+      <input
+        type="text"
+        name="precioIngredientes"
+        placeholder="Precio de ingredientes"
+        disabled
+      />
+      <label>Valor por Hora del Trabajador (inhabilitado):</label>
+      <input
+        type="text"
+        name="valorHoraTrabajador"
+        placeholder="Valor por hora del trabajador"
+        disabled
+      />
+      <label>Precio de Venta:</label>
+      <input
+        type="number"
+        name="precioVenta"
+        placeholder="Ingrese el precio de venta"
+        required
+      />
+      <label>Margen de Beneficio:</label>
+      <input
+        type="number"
+        name="margenBeneficio"
+        placeholder="Ingrese el margen de beneficio"
+        required
+      />
+      <label>Cantidad Vendida:</label>
+      <input
+        type="number"
+        name="cantidadVendida"
+        placeholder="Ingrese la cantidad vendida"
+        required
+      />
+      <a href="ingredientes.html"><button>Enviar</button></a>
+      <a href="ingredientes.html"><button>Borrar</button></a>
     </section>
   </body>
 </html>

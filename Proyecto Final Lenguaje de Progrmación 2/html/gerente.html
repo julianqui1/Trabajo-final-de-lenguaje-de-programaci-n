@@ -23,7 +23,7 @@
         <li><a href="/html/gerente_socios.html">Socios</a></li>
         <li><a href="/html/ingredientes.html">Ingredientes</a></li>
         <li><a href="/html/productos.html">Productos</a></li>
-        <li><a href="">Ventas</a></li>
+        <li><a href="/html/ventas.html">Ventas</a></li>
         <li><a href="/html/index.html">Salir</a></li>
       </ul>
     </nav>
@@ -72,44 +72,53 @@
           Illo dolorum, quia nisi voluptatibus ipsum accusamus.
         </p>
         <h2 id="editar-h2">Editar</h2>
-        <div class="formulario">
-          <form>
-            <div class="formulario-div">
-              <input type="text" name="Nombre" placeholder="Nombre" required />
-            </div>
-            <div class="formulario-div">
-              <input
-                type="text"
-                name="Primer-Apellido"
-                placeholder="Primer Apellido"
-                required
-              />
-            </div>
-            <div class="formulario-div">
-              <input
-                type="text"
-                name=" Segundo-Apellido "
-                placeholder="Segundo-Apellido"
-              />
-            </div>
-            <div class="formulario-div">
-              <input type="email" name="Email" placeholder="Correo" required />
-            </div>
-            <div class="formulario-div">
-              <input
-                type="tel"
-                name="Telefono/Celular"
-                placeholder="Telefono/Celular"
-                required
-              />
-            </div>
-            <div class="a">
-              <a type="submit" class="button" href="">Actualizar</a>
-            </div>
-          </form>
+        <div class="section-formulario">
+          <h2>Formulario</h2>
+          <input
+            class="formulario"
+            type="text"
+            name="nombre"
+            placeholder="Nombre"
+            required
+          />
+          <input
+            class="formulario"
+            type="text"
+            name="primer-apellido"
+            placeholder="Primer apellido"
+            required
+          />
+          <input
+            class="formulario"
+            type="text"
+            name="cegundo-apellido"
+            placeholder="Segundo apellido"
+            required
+          />
+          <input
+            class="formulario"
+            type="tel"
+            name="Telefono/Celular"
+            placeholder="Telefono/Celular"
+            required
+          />
+          <input
+            class="formulario"
+            type="password"
+            name="contraseña"
+            placeholder="contraseña"
+            required
+          />
+          <a href="/html/gerente_socios.html"
+            ><button class="boton">Editar</button></a
+          >
+          <a href="/html/gerente_socios.html"
+            ><button class="boton">Borrar</button></a
+          >
         </div>
       </section>
     </article>
+    <br /><br /><br />
     <footer>
       <div class="footer-links">
         <p>Links</p>
@@ -118,5 +127,6 @@
       </div>
       <p>&copy; 2023 Tu Sitio Web. Todos los derechos reservados.</p>
     </footer>
+    </script>
   </body>
 </html>
