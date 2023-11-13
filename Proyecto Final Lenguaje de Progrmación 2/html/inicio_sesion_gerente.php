@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio de sesion gerente</title>
-    <link rel="stylesheet" href="/styles/inicio_sesion_gerente.css" />
-    <link rel="shortcut icon" href="/img/descarga.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/inicio_sesion_gerente.css" />
+    <link rel="shortcut icon" href="../img/descarga.jpg" type="image/x-icon" />
   </head>
   <body>
     <div class="login">
@@ -23,18 +23,18 @@
           <input
             type="tel"
             name="telefono"
-            placeholder="digite su numero de telefono"
+            placeholder="Digite su numero de telefono"
           />
         </div>
         <div class="usuario-contraseña">
           <input
             type="password"
-            name="contrasena"
+            name="contraseña"
             placeholder="Digite su contraseña"
           />
         </div>
         <div>
-          <input type="submit" class="button" name="enviar" value="enviar" />
+          <input type="submit" class="button" name="Login" value="Login" />
         </div>
       </form>
     </div>
